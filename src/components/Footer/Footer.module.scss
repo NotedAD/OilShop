@@ -9,37 +9,35 @@
     width: 40%;
     margin: 0 auto;
     font-size: 20px;
-}
 
-.contactsInfoSpan{
-    font-size: 16px;
-}
+    .contactsInfoSpan{
+        font-size: 16px;
+    }
 
-.defaultContactsInfo>p:last-child{
-    font-size: 16px;
-    text-align: right;
-}
+    .defaultContactsInfo>p:last-child{
+        font-size: 16px;
+        text-align: right;
+    }
 
-.contactsInfoMail{
-    display: flex;
-}
+    .contactsInfoMail{
+        display: flex;
+        img{
+            padding-left: 2em;
+        }
+    }
 
-.contactsInfoMail>img{
-    padding-left: 2em;
-}
+    .contactsInfoPhone{
+        display: flex;
+        margin-bottom: 0;
+        img{
+            padding-left: 1em;
+        }
+    }
 
-.contactsInfoPhone{
-    display: flex;
-    margin-bottom: 0;
-}
-
-.contactsInfoPhone>img{
-    padding-left: 1em;
-}
-
-.contactsInfoPhoneLink{
-    margin-right: 1.5em;
-    margin-top: 0;
+    .contactsInfoPhoneLink{
+        margin-right: 1.5em;
+        margin-top: 0;
+    }
 }
 
 .moreContactsInfo>p:not(:first-child){
@@ -60,10 +58,10 @@
     width: 40%;
     margin: 0 auto;
     font-size: 24px;
-}
 
-.formRequestText>p:last-child{
-    font-size: 16px;
+    .formRequestText>p:last-child{
+        font-size: 16px;
+    }
 }
 
 .form{
@@ -72,43 +70,43 @@
     background-color: #DEDEDE;
     display: flex;
     justify-content: center;
-}
 
-.formElement{
-    width: 90%;
-    font-size: 16px;
-}
+    .formElement{
+        width: 90%;
+        font-size: 16px;
+    }
 
-.formInput{
-    border: 0;
-    border-radius: 5px;
-    height: 2.2em;
-    width: 100%;
-}
+    .formInput{
+        border: 0;
+        border-radius: 5px;
+        height: 2.2em;
+        width: 100%;
+    }
 
-.formInputArea{
-    resize: none;
-    border: 0;
-    border-radius: 5px;
-    width: 100%;
-}
+    .formInputArea{
+        resize: none;
+        border: 0;
+        border-radius: 5px;
+        width: 100%;
+    }
 
-.formInputCheckBox{
-    display: flex;
-    border: 0;
-    border-radius: 5px;
-    height: 2em;
-    width: 2em;
-    margin-right: 2em;
-}
+    .formInputCheckBox{
+        display: flex;
+        border: 0;
+        border-radius: 5px;
+        height: 2em;
+        width: 2em;
+        margin-right: 2em;
+    }
 
-.formButton{
-    margin: 2em 0;
-}
+    .formButton{
+        margin: 2em 0;
+    }
 
-.formElement>p:last-of-type{
-    display: flex;
-    font-size: 14px;
+    .formElement>p:last-of-type{
+        display: flex;
+        font-size: 14px;
+    }
 }
 
 .infoCompany{
