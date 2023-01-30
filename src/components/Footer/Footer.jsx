@@ -7,8 +7,8 @@ function Footer() {
             <p>Контакты</p>
             <div className={footer.contactsInfo}>
                 <div className={footer.defaultContactsInfo}>
-                    <p className={footer.contactsInfoMail}>Почта: <img src='/Composing Mail.png' alt='Mail'/><span className={footer.contactsInfoSpan}>qualityoil@mail.ru</span></p>
-                    <p className={footer.contactsInfoPhone}>Телефон: <img src='/Ringer Volume.png' alt='Phone'/><span className={footer.contactsInfoSpan}>+78002345634</span></p>
+                    <p className={footer.contactsInfoMail}><span className={footer.indent}>Почта:</span> <img src='/Composing Mail.png' alt='Mail'/><span className={footer.contactsInfoSpan}>qualityoil@mail.ru</span></p>
+                    <p className={footer.contactsInfoPhone}><span className={footer.indent}>Телефон:</span><img src='/Ringer Volume.png' alt='Phone'/><span className={footer.contactsInfoSpan}>+78002345634</span></p>
                     <p className={footer.contactsInfoPhoneLink}><a href='#'>Заказать звонок</a></p>
                 </div>
                 <div className={footer.moreContactsInfo}>
@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
             <div className={footer.infoCompany}>
-                <p>© 2023 Все права защищены. <br /><br />Все материалы сайта принадлежат <br />ООО “КВАЛИТЕТОИЛ” ИНН 5751054390</p>
+                <p>© 2023 Все права защищены. <br /><br />Все материалы сайта принадлежат <br />Noted & frexxx-7</p>
             </div>
         </div>
     </footer>

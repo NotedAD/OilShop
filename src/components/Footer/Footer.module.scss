@@ -24,18 +24,22 @@
 
   .contactsInfoMail {
     display: flex;
+    align-items: center;
 
     img {
-      padding-left: 2em;
+      padding-left: 1em;
+      height: 100%;
     }
   }
 
   .contactsInfoPhone {
     display: flex;
     margin-bottom: 0;
+    align-items: center;
 
     img {
       padding-left: 1em;
+      height: 100%;
     }
   }
 
@@ -55,6 +59,10 @@
       }
     }
   }
+}
+
+.indent {
+  width: 6rem;
 }
 
 .moreContactsInfo>p:not(:first-child) {
