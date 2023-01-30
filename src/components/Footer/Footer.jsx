@@ -19,7 +19,7 @@ function Footer() {
                     <p>-</p>
                     <p>-</p>
                     <p>-</p>
-                    <p><a href='#'>Скачать карточку предприятия</a></p>
+                    <p><a href='#' className={footer.card}>Скачать карточку предприятия</a></p>
                 </div>
             </div>
             <hr />
@@ -35,7 +35,7 @@ function Footer() {
                         <p>Почта <br /><input type='email' className={footer.formInput}/></p>
                         <p>Комментарий <br /><textarea rows={10} cols={50} className={footer.formInputArea}></textarea></p>
                         <p><input type='checkbox' className={footer.formInputCheckBox} />Нажимая на кнопку отправить Вы <br /> соглашаетесь на обработку <br /> персональных данных</p>
-                        <button type='submit' className={footer.formButton}>Отправить</button>
+                        <div className={footer.formDivButton}><button type='submit' className={footer.formButton}>Отправить</button></div>
                     </form>
                 </div>
             </div>
