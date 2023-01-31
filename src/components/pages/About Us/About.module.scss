@@ -85,18 +85,18 @@
     .theyTalkAboutUsText{
         display: flex;
         justify-content: center;
-        &>p:first-of-type{
+        &>div>p{
             font-size: 18px;
             margin-top: 0;
-            &>hr{
-                width: 25vw;
-                margin-left: 0;
-                margin-bottom: 1.5em;
-                border: 1px solid #282828;
-            }
             &>img{
                 padding-bottom: 1em;
             }
+        }
+        &>div>hr{
+            width: 25vw;
+            margin-left: 0;
+            margin-bottom: 1.5em;
+            border: 1px solid #282828;
         }
         &>p:last-of-type{
             margin-top: 5em;

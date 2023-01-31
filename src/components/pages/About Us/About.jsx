@@ -38,7 +38,10 @@ function About() {
                 <div className={about.arrow}>
                     <i className="fa-solid fa-chevron-left" />
                 </div>
-                <p><hr /><img src='/person.png' alt='Evgeniy Kyzmin' /><br />Евгений Кузьмин<br /> <span className={about.personJob}>директор ANK group</span></p>
+                <div>
+                    <hr />
+                    <p><img src='/person.png' alt='Evgeniy Kyzmin' /><br />Евгений Кузьмин<br /> <span className={about.personJob}>директор ANK group</span></p>
+                </div>
                 <p>“У предварительного исследования<br /> в UX проектах может быть много разных причин,<br /> но все они направлены на поиск решения<br /> проблемы и достижение необходимых<br /> результатов.”</p>
                 <div className={about.arrow}>
                     <i className="fa-solid fa-chevron-right" />
