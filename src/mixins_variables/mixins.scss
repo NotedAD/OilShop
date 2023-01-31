@@ -33,3 +33,36 @@
     color: #fff;
   }
 }
+
+@mixin news {
+.lastNewsInfoElement{
+    margin: 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-bottom: .9em;
+    &>img{
+        border-radius: 10px 10px 0 0;
+    }
+    &>p:first-of-type{
+        font-size: 24px;
+        margin: 0 .8em;
+    }
+    &>p:last-of-type{
+        margin-left: 1.2em;
+        margin-bottom: .5em;
+    }
+    &>a{
+        margin-left: 1.2em;
+        background: var(--link-color-specific);;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+    &>span{
+        padding-left: 5.5em;
+        color: #DEDEDE;
+    }
+}
+
+}
