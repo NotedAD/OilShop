@@ -55,7 +55,7 @@
   border-radius: 5px;
   box-sizing: border-box;
   background-color: #DEDEDE;
-  width: 15%;
+  min-width: 15%;
   border: none;
 
   p {
@@ -71,7 +71,7 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
 
-    img {
+    i {
       width: 13%;
     }
 
@@ -135,10 +135,8 @@
   box-sizing: border-box;
   width: 20%;
 
-  img {
-    height: 130%;
+  i {
     margin: 0 3px;
-    height: 100%;
   }
 
   input {
@@ -161,8 +159,10 @@
   height: 80%;
   width: 5%;
 
-  img {
+  i {
     height: 100%;
+    line-height: normal;
+
   }
 }
 
@@ -174,7 +174,7 @@
   vertical-align: middle;
   font-size: 14px;
   position: relative;
-  bottom: 18px;
+  bottom: 14px;
   left: 17px;
   width: 18px;
 }
@@ -187,8 +187,7 @@
   margin: 0;
   align-items: center;
 
-  img {
-    height: 80%;
+  i {
     margin-right: 7px;
   }
 }

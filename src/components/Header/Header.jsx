@@ -12,22 +12,22 @@ function Header() {
           <div className={classes.headerMenu}>
             <div className={classes.headerMenuContent}>
               <button className={classes.catalog}>
-                <p> <img src="/burger.png" alt="burger" /> Каталог <img src="/arrow.png" alt="arrow" /></p>
+                <p><i className="fa-solid fa-bars fa-xl" />Каталог<i className="fa-sharp fa-solid fa-chevron-down fa-xl" /></p>
               </button>
 
               <div className={classes.search}>
-                <img src="/search.png" alt="search" />
+                <i className="fa-solid fa-magnifying-glass fa-sm" style={{ 'color': '#fff' }} />
                 <input type="text" placeholder='Найти товар' />
               </div>
 
               <div className={classes.buying}>
-                <img src="/buying.png" alt="buying" />
+                <i className="fa-solid fa-cart-shopping fa-xl" />
                 <div className={classes.circle}>
                   {2}
                 </div>
               </div>
-              <p className={classes.contactsInfoMail}><img src='/Composing Mail.png' alt='Mail' />qualityoil@mail.ru</p>
-              <p className={classes.contactsInfoPhone}><img src='/Ringer Volume.png' alt='Phone' />+78002345634</p>
+              <p className={classes.contactsInfoMail}><i className="fa-solid fa-paper-plane fa-lg" />qualityoil@mail.ru</p>
+              <p className={classes.contactsInfoPhone}><i className="fa-solid fa-phone-volume fa-lg" />+78002345634</p>
             </div>
           </div>
           <div className={classes.menu}>
@@ -35,7 +35,7 @@ function Header() {
               <ul className={classes.ul}>
                 <li>Главное</li>
                 <li>О компании</li>
-                <li>Производители <img src="/arrow.png" alt="arrow" /></li>
+                <li>Производители <i className="fa-sharp fa-solid fa-chevron-down fa-lg" /></li>
                 <li>Доставка</li>
                 <li>Контакты</li>
                 <li>Новости</li>
