@@ -51,7 +51,7 @@
       background-image: var(--link-color-specific);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
+      background-clip: text;
       -moz-text-fill-color: transparent;
 
       &:hover {
@@ -156,7 +156,7 @@
   background-image: var(--link-color-specific);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
+  background-clip: text;
   -moz-text-fill-color: transparent;
 
   &:hover {

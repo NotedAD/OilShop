@@ -43,7 +43,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .aboutDataNumberMoreInfo{
@@ -169,7 +169,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
     }
     &>span{
         padding-left: 5.5em;
