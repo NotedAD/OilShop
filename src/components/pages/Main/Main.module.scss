@@ -219,12 +219,18 @@
   justify-content: space-between;
 }
 
-.aboutDataNumberP{
+.aboutDataNumberP {
   width: 15%;
 }
-.aboutCompanyButton{
 
+.aboutCompanyButton {
+  @include buttonBackgroundWithBorder;
+  padding: 10px 25px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
 }
+
 .aboutDataNumberInfo {
   font-size: 36px;
   background: var(--link-color-specific);
@@ -237,4 +243,142 @@
 
 .aboutDataNumberMoreInfo {
   font-size: 20px
+}
+
+.catalog {
+  width: 100%;
+  height: 150vh;
+
+  h2 {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+}
+
+.catalogContent {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+.settings {
+  width: 25%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodsWall {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.selectionSetting {
+  width: 80%;
+  height: 100%;
+  background: #DEDEDE;
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-sizing: border-box;
+
+  h5 {
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 10%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 90%;
+}
+
+.oneFilter {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin: 0;
+    line-height: 20px;
+  }
+
+  select {
+    background: #FFFFFF;
+    border-radius: 2px;
+    width: 70%;
+    border: none;
+  }
+}
+
+.oilCategory {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 94%;
+
+  hr {
+    margin: .1rem;
+    border: 2px solid #DEDEDE;
+  }
+}
+
+.goodsWailPages {
+  height: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.oilCategoryFilter {
+  height: 3%;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #DEDEDE;
+  width: 50%;
+  border: none;
+
+  p {
+    margin: 0;
+    display: inline-block;
+    padding: 0 7px;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    i {
+      width: 13%;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
