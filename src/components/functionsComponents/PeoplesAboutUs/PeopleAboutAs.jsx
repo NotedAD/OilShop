@@ -1,5 +1,5 @@
-import React from 'react'
-import classes from '../../pages/About Us/About.module.scss'
+import React from "react";
+import classes from "../../pages/About Us/About.module.scss";
 
 const PeopleAboutAs = ({ name, image, title, body }) => {
   return (
@@ -7,17 +7,18 @@ const PeopleAboutAs = ({ name, image, title, body }) => {
       <div className={classes.peoplePhoto}>
         <hr />
         <p>
-          <img src={image} alt='Face People' />
-          <br />{name}<br />
+          <img src={image} alt="Face People" />
+          <br />
+          {name}
+          <br />
           <span className={classes.personJob}>{title}</span>
         </p>
       </div>
       <div className={classes.bodyPeopleAbout}>
-        <p>
-          “{body}”
-        </p></div>
+        <p>“{body}”</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default PeopleAboutAs
+export default PeopleAboutAs;

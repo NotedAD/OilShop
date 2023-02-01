@@ -1,25 +1,25 @@
-import NewsCards from '../../functionsComponents/NewsCards/NewsCards'
-import PageArticleInfo from '../../functionsComponents/PageArticle/PageArticleInfo'
-import pageArticle from './PageArticle.module.scss'
+import NewsCards from "../../functionsComponents/NewsCards/NewsCards";
+import PageArticleInfo from "../../functionsComponents/PageArticle/PageArticleInfo";
+import pageArticle from "./PageArticle.module.scss";
 
 const PageArticle = () => {
   return (
     <div className={pageArticle.pageArticle}>
-        <a href='#'>{'<'}Вернуться</a>
-        <div className={pageArticle.pageArticleInfo}>
-            <PageArticleInfo
-                name='Специальные смазочные
-                материалы Matrix'
-                img='PageArticleInfoPng.png'
-                body='Компрессорные масла — это отдельная группа смазочных материалов, которая предназначена для работы с промышленными компрессорами. 
+      <a href="#">{"<"}Вернуться</a>
+      <div className={pageArticle.pageArticleInfo}>
+        <PageArticleInfo
+          name="Специальные смазочные
+                материалы Matrix"
+          img="PageArticleInfoPng.png"
+          body="Компрессорные масла — это отдельная группа смазочных материалов, которая предназначена для работы с промышленными компрессорами. 
                 Одной из важнейших характеристик этого типа масел является вязкость, способность создавать устойчивую масляную пленку и сохранять ее при высоких температурах. 
                 Это значительно продлевает ресурс оборудования. Условия эксплуатации компрессорной техники накладывают специфические особенности. 
                 Масло вступает в непосредственный контакт со сжатым газом, нагретым до высокой температуры. 
                 Поэтому при создании этого типа смазочных материалов особое внимание уделяется коэффициенту испарения и температуре воспламенения. 
-                Смазочный материал высокого качества позволит снизить взрывоопасность, и соответственно опасность воспламенения, а также обеспечивает лучшую герметичность.'
-            />
-        </div>
-        <div className={pageArticle.lastNews}>
+                Смазочный материал высокого качества позволит снизить взрывоопасность, и соответственно опасность воспламенения, а также обеспечивает лучшую герметичность."
+        />
+      </div>
+      <div className={pageArticle.lastNews}>
         <p>Другие статьи</p>
         <div className={pageArticle.lastNewsInfo}>
           <div>
@@ -80,7 +80,7 @@ const PageArticle = () => {
         <button>Больше новостей</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PageArticle
+export default PageArticle;
