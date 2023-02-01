@@ -1,3 +1,4 @@
+import NewsCards from "../../functionsComponents/NewsCards/NewsCards";
 import news from './News.module.scss'
 
 function News() {
@@ -20,55 +21,61 @@ function News() {
                 </select>
             </p>
         </div>
-        <div className={news.lastNewsInfo}> 
-            <div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsFirst.png' alt='1'/>
-                    <p>Когда нужно менять<br /> масло в машине?</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsTwo.png' alt='1'/>
-                    <p>Правильный уход<br /> за машиной зимой</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-            </div>
-            <div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsThree.png' alt='1'/>
-                    <p>Какое масло<br /> подобрать зимой</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsFour.png' alt='1'/>
-                    <p>Что делать если<br /> встал на трассе</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-            </div>
-            <div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsFive.png' alt='1'/>
-                    <p>Что делать если<br /> протекает масло</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-                <div className={news.lastNewsInfoElement}>
-                    <img src='NewsSix.png' alt='1'/>
-                    <p>ТОП 10 худших<br /> популярных масел</p>
-                    <p>Сегодня мы подробно<br /> расскажем, когда лучше всего<br /> менять масло в машине...</p>
-                    <a href='#'>Подробнее...</a>
-                    <span>27/01/23</span>
-                </div>
-            </div>
+        <div className={news.lastNewsInfo}>
+          <div>
+            <NewsCards
+              img="NewsFirst.png"
+              title="Когда нужно менять масло в машине?"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+            <NewsCards
+              img="NewsTwo.png"
+              title="Правильный уход за машиной зимой"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+          </div>
+          <div>
+            <NewsCards
+              img="NewsThree.png"
+              title="Какое масло подобрать зимой"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+            <NewsCards
+              img="NewsFour.png"
+              title="Что делать если встал на трассе"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+          </div>
+          <div>
+            <NewsCards
+              img="NewsFive.png"
+              title="Что делать если протекает масло"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+            <NewsCards
+              img="NewsSix.png"
+              title="ТОП 10 худших популярных масел"
+              body="Сегодня мы подробно расскажем, 
+              когда лучше всего 
+              менять масло в машине..."
+              date="27/01/23"
+            />
+          </div>
         </div>
         <button>Загрузить еще</button>
     </div>    
