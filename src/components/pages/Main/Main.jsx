@@ -1,3 +1,4 @@
+import OilProduct from '../../functionsComponents/OilProduct/OilProduct'
 import classes from './Main.module.scss'
 
 function Main() {
@@ -77,6 +78,98 @@ function Main() {
 
         <div className={classes.triangeBottom}>
 
+        </div>
+      </div>
+
+      <div className={classes.catalog}>
+        <h2>Каталог</h2>
+
+        <div className={classes.catalogContent}>
+          <div className={classes.settings}>
+            <div className={classes.selectionSetting}>
+              <h5>Настройка выбора</h5>
+
+              <div className={classes.filter}>
+                <div className={classes.oneFilter}>
+                  <p>Производители</p>
+                  <select>
+                    <option value="" >Все</option>
+                  </select>
+                </div>
+
+                <div className={classes.oneFilter}>
+                  <p>Вязкость</p>
+                  <select>
+                    <option value="" >Вся</option>
+                  </select>
+                </div>
+
+                <div className={classes.oneFilter}>
+                  <p>NIGI</p>
+                  <select>
+                    <option value="" >Вся</option>
+                  </select>
+                </div>
+
+                <div className={classes.oneFilter}>
+                  <p>Фасовка</p>
+                  <select>
+                    <option value="" >Вся</option>
+                  </select>
+                </div>
+
+                <div className={classes.oneFilter}>
+                  <p>Назначение</p>
+                  <select>
+                    <option value="" >Любое</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={classes.goodsWall}>
+            <button className={classes.oilCategoryFilter}>
+              <p><i className="fa-solid fa-bars fa-xl" />Масла для легкомортного транспорта<i className="fa-sharp fa-solid fa-chevron-down fa-xl" /></p>
+            </button>
+            <div className={classes.oilCategory}>
+              <OilProduct
+                image='./oil_product_1.png'
+                name='Моторное масло Shell Helix Ultra 0W-40 API SP синтетическое'
+                number='1'
+                volume='4л'
+                art='21341'
+              />
+              <OilProduct
+                image='./oil_product_1.png'
+                name='Моторное масло Shell Helix Ultra 0W-40 API SP синтетическое'
+                number='1'
+                volume='4л'
+                art='21341'
+              /><OilProduct
+                image='./oil_product_1.png'
+                name='Моторное масло Shell Helix Ultra 0W-40 API SP синтетическое'
+                number='1'
+                volume='4л'
+                art='21341'
+              /><OilProduct
+                image='./oil_product_1.png'
+                name='Моторное масло Shell Helix Ultra 0W-40 API SP синтетическое'
+                number='1'
+                volume='4л'
+                art='21341'
+              /><OilProduct
+                image='./oil_product_1.png'
+                name='Моторное масло Shell Helix Ultra 0W-40 API SP синтетическое'
+                number='1'
+                volume='4л'
+                art='21341'
+              />
+            </div>
+            <div className={classes.goodsWailPages}>
+              1 2 3 ... 4 След
+            </div>
+          </div>
         </div>
       </div>
     </main>
