@@ -1,0 +1,29 @@
+.companyCards {
+  width: 100%;
+  background: #DEDEDE;
+  border-radius: 10px;
+  height: 25vh;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photoCompany {
+  width: 25%;
+  height: calc(100% - 20px);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.textCompany {
+  width: 65%;
+  margin-right: 2rem;
+}
